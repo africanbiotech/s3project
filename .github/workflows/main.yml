@@ -20,4 +20,4 @@ jobs:
         aws-region: us-east-1
 
     - name: Deploy static site to S3 bucket
-      run: aws s3 sync ./This PC/Windows (C:)/Users/mawun/public/ s3://stacticweb --delete
+      run: aws s3 sync ./mawun/public/ s3://stacticweb --delete
